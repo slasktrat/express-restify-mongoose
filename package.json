@@ -49,7 +49,7 @@
   ],
   "license": "MIT",
   "main": "./src/express-restify-mongoose",
-  "name": "express-restify-mongoose",
+  "name": "baze-express-restify-mongoose",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
