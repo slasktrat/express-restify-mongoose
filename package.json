@@ -52,7 +52,7 @@
   ],
   "license": "MIT",
   "main": "./lib/express-restify-mongoose",
-  "name": "@peek4y/express-restify-mongoose",
+  "name": "baze-express-restify-mongoose",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
@@ -64,7 +64,6 @@
   "scripts": {
     "lint": "standard",
     "compile": "babel src -d lib --source-maps both",
-    "prepublish": "in-publish && npm test || not-in-publish",
     "pretest": "npm run lint && npm run compile",
     "test": "npm run test-unit && npm run test-filter && npm run test-express && npm run test-restify",
     "test-ci": "npm run test-unit && npm run test-filter && npm run test-cov-express && npm run test-restify",
