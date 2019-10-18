@@ -132,7 +132,8 @@ module.exports = function () {
 
     if (opts.connect) {
       mongoose.connect('mongodb://localhost/database', {
-        useMongoClient: true
+        useNewUrlParser: true,
+        useUnifiedTopology: true
       }, callback)
     } else if (typeof callback === 'function') {
       callback()
